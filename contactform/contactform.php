@@ -6,7 +6,7 @@ $nombre = $_POST['name'];
 $email = $_POST['email'];
 $telefono = $_POST['phone'];
 $mensaje = $_POST['message'];
-$asunto = $_POST['subject']
+$asunto = $_POST['subject'];
 
 
 $header = 'from: '.$email."\r\n";
@@ -24,6 +24,6 @@ $message .= "enviado el: ".date('d/m/Y',time());
 $para = 'cristian.j96@hotmail.com';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
-echo "<script type='text/javascript'>alert('Tu message ha sido enviado exitosamente');</script>";
+echo "<script type='text/javascript'>alert('Tu mensaje ha sido enviado exitosamente');</script>";
 }
  ?>
