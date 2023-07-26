@@ -1,12 +1,15 @@
 <?php 
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
 $nombre = $_POST['name'];
 $email = $_POST['email'];
 $telefono = $_POST['phone'];
 $mensaje = $_POST['message'];
 $asunto = $_POST['subject']
 
-$header = 'from: '.$mail."\r\n";
+
+$header = 'from: '.$email."\r\n";
 $header .= "X-Mailer:PHP/".phpversion()."\r\n";
 $header .= "Mime-Version:1.0 \r\n";
 $header .= "content-Type:text/plain";
@@ -22,4 +25,5 @@ $para = 'cristian.j96@hotmail.com';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
 echo "<script type='text/javascript'>alert('Tu message ha sido enviado exitosamente');</script>";
+}
  ?>
