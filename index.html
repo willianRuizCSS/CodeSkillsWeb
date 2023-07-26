@@ -165,7 +165,7 @@
             <div class="col-md-4 wow fadeInUp">
               <div class="about-col">
                 <div class="img">
-                  <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                  <img src="img/about-mission.jpg" alt="mission" class="img-fluid">
                   <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                 </div>
                 <h2 class="title"><a href="#">Consultoría</a></h2>
@@ -182,7 +182,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div class="about-col">
                 <div class="img">
-                  <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                  <img src="img/about-plan.jpg" alt="about" class="img-fluid">
                   <div class="icon"><i class="ion-ios-list-outline"></i></div>
                 </div>
                 <h2 class="title"><a href="#">Outsourcing</a></h2>
@@ -199,7 +199,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
               <div class="about-col">
                 <div class="img">
-                  <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                  <img src="img/about-vision.jpg" alt="vision" class="img-fluid">
                   <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                 </div>
                 <h2 class="title"><a href="#">Desarrollo Web a la Medida</a></h2>
@@ -290,8 +290,8 @@
     <!--==========================
       Skills Section
     ============================-->
-    <section id="skills">
-      <div class="container">
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container" id="skills">
 
         <header class="section-header">
           <h3>Habilidades</h3>
@@ -299,35 +299,68 @@
             lo que garantiza resultados de alta calidad.</p>
         </header>
 
-        <div class="skills-content">
+        <div class="owl-carousel testimonials-carousel">
+          <div class="d-flex justify-content-between">
+            <div class="card" style="width: 23rem;">
+              <img height="200vh" src="img/habilidades/web.jpg" class="card-img-top" alt="web">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollo de aplicaciones web</h5>
+                <p class="card-text">Diseño y desarrollo de sitios web personalizados y únicos para empresas y
+                  organizaciones</p>
+              </div>
+            </div>
 
-          <div class="progress">
-            <div class="progress-bar" style="background-color: blueviolet;" role="progressbar" aria-valuenow="100"
-              aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">.NET <i class="val">100%</i></span>
+            <div class="card" style="width: 23rem;">
+              <img height="200vh" src="img/habilidades//mobile.jpg" class="card-img-top" alt="mobile">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollo aplicativo móvil</h5>
+                <p class="card-text">Capacidad para diseñar, desarrollar y mantener aplicaciones móviles para
+                  plataformas como iOS y Android. Enfocados en crear experiencias de usuario intuitivas y funcionales
+                  para dispositivos móviles.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 23rem;">
+              <img height="200vh" src="img/habilidades/auto.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mejora de procesos de desarrollos de software</h5>
+                <p class="card-text">Descripción: Habilidad para analizar y optimizar los procesos de desarrollo de
+                  software y gestión de proyectos. Utilizando metodologías como Agile o Lean, se busca identificar áreas
+                  de mejora, reducir tiempos de entrega y mejorar la calidad del software desarrollado</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="card" style="width: 23rem;">
+              <img height="200vh" src="img/habilidades/work.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Automatización de flujos de trabajo</h5>
+                <p class="card-text">Habilidad para identificar tareas repetitivas en el desarrollo de software o en
+                  procesos empresariales, y crear soluciones automatizadas para agilizar y mejorar la eficiencia.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 23rem;">
+              <img height="200vh" src="img/habilidades/nube.png" class="card-img-top" alt="nube">
+              <div class="card-body">
+                <h5 class="card-title">Migración de aplicaciones legacy hacia la nube</h5>
+                <p class="card-text">Competencia en la reubicación de aplicaciones heredadas (legacy) desde
+                  infraestructuras locales a entornos basados en la nube. Implica comprender las diferencias en la
+                  arquitectura, la configuración y la seguridad entre ambas plataformas, y llevar a cabo la migración de
+                  manera segura y eficiente.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 23rem;">
+              <img height="200vh" src="img/habilidades/UI.jpg" class="card-img-top" alt="UI">
+              <div class="card-body">
+                <h5 class="card-title">Diseño de interfaz de usuario (UI) y experiencia de usuario (UX)</h5>
+                <p class="card-text">Creación de interfaces de usuario atractivas y fáciles de usar que mejoren la
+                  experiencia del usuario en el sitio web</p>
+              </div>
             </div>
           </div>
 
-          <div class="progress">
-            <div class="progress-bar" style="background-color: #0206fdb9;" role="progressbar" aria-valuenow="100"
-              aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">C# <i class="val">100%</i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">Angular <i class="val">100%</i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar" style="background-color: #fd7e14;" role="progressbar" aria-valuenow="100"
-              aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">SQL <i class="val">100%</i></span>
-            </div>
-          </div>
         </div>
 
       </div>
@@ -567,83 +600,6 @@
     </section><!-- #clients -->
 
     <!--==========================
-      Clients Section
-    ============================-->
-    <!-- <section id="testimonials" class="section-bg wow fadeInUp">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Testimonials</h3>
-        </header>
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item">
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
-              labore quem eram duis noster aute amet eram fore quis sint minim.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
-              dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>#testimonials -->
-
-    <!--==========================
       Team Section
     ============================-->
     <!-- <section id="team">
@@ -777,23 +733,23 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4"
-                  data-msg="Please enter at least 4 chars" />
+                  data-msg="El nombre es requerido" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico"
-                  data-rule="email" data-msg="Please enter a valid email" />
+                  data-rule="email" data-msg="El correo es requerido" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
-                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                data-rule="minlen:4" data-msg="El asunto es requerido" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
               <textarea class="form-control" name="message" rows="5" data-rule="required"
-                data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                data-msg="El mensaje es requerido" placeholder="Mensaje"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit">Enviar</button></div>

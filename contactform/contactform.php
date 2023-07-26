@@ -17,8 +17,8 @@ $header .= "content-Type:text/plain";
 $message = "Este mensaje fue enviado por: ".$nombre."\r\n";
 $message .= "Su e-mail es: ".$email."\r\n";
 // $message .= "Telefono: ".$telefono."\r\n";
-$message .= "mensaje: ".$mensaje."\r\n";
-$message .= "enviado el: ".date('d/m/Y',time());
+$message .= "Mensaje: ".$mensaje."\r\n";
+$message .= "Enviado el: ".date('d/m/Y',time());
 
 //ceo@codeskills.com.co
 $para = 'cristian.j96@hotmail.com';
