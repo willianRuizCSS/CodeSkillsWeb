@@ -1338,9 +1338,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #errormessage {
-  color: red;
+  color: rgb(81, 180, 255);
   display: none;
-  border: 1px solid red;
+  border: 1px solid rgb(81, 180, 255);
   text-align: center;
   padding: 15px;
   font-weight: 600;

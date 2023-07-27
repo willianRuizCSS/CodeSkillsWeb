@@ -24,6 +24,8 @@ $message .= "Enviado el: ".date('d/m/Y',time());
 $para = 'ceo@codeskills.com.co';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
-echo "<script type='text/javascript'>alert('Tu mensaje ha sido enviado exitosamente');</script>";
+echo "Mensaje enviado correctamente";
+}else{
+    echo "error al enviar el correo"
 }
  ?>
