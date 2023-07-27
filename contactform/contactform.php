@@ -21,7 +21,7 @@ $message .= "Mensaje: ".$mensaje."\r\n";
 $message .= "Enviado el: ".date('d/m/Y',time());
 
 //ceo@codeskills.com.co
-$para = 'cristian.j96@hotmail.com';
+$para = 'ceo@codeskills.com.co';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
 echo "<script type='text/javascript'>alert('Tu mensaje ha sido enviado exitosamente');</script>";
